@@ -10,7 +10,7 @@ public class Application {
 	public static void main(String[] args) {
 		ConfigurableApplicationContext run = SpringApplication.run(Application.class, args);
 		
-		   
+		   //HS-122 provided
 		    run.close();
 	}
 
